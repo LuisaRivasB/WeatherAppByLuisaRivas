@@ -1,0 +1,85 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('/img.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff8;
+    padding: 4em 2em;
+    border-radius: 1em;
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+}
+
+.tittle {
+    text-align: center;
+}
+
+.subtittle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 1em;
+
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    align-items: center;
+}
+
+.info_tittle {
+    text-align: center;
+    margin-bottom: 0.8em;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.info_body {
+    display: grid;
+    gap: 1em;
+}
+
+.item {
+    font-size: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 400;
+}
+
+.span {
+    font-weight: 200;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temperature {
+    margin-bottom:  0.8em;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 0.5em 1.3em;
+    border-radius: 0.2em;
+    box-shadow:  0.3em 0.3em 0.5em;
+    transition: filter 150ms ease, transform 85ms ease;
+    cursor: pointer; 
+}
+
+.btn:hover {
+    filter: brightness(0.9);
+    transform: scale(1.00)
+}

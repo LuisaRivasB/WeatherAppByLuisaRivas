@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800;900&family=Merriweather+Sans:wght@300;400;600;700&family=Montserrat+Alternates:wght@300&family=Rubik&display=swap')
+/* -------Reset------ */
+
+*  {
+    box-sizing: borde-box;
+}
+
+html {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+bottom {
+    display: block;
+    border: none;
+}
